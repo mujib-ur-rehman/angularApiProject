@@ -13,7 +13,7 @@
     <label>Salary</label><br>
     <input type="text" formControlName="salary" /><br><br>
     <button type="submit" [disabled]="!profileForm.valid">Submit</button>
-    <button type="submit" *ngIf="value" (click)='updateuser()'>Update</button>
+    <button type="button" (click)='updateuser()'>Update</button>
 
   </form>
 
